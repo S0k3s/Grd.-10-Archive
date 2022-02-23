@@ -1,0 +1,59 @@
+body {
+	 background-color: #333333;
+}
+
+#h101 {
+	 text-align: center;
+	 font-size: 50;
+}
+
+#h201 {
+	 text-align: center;
+	 position: absolute;
+	 right: 80%;
+	 bottom: 75%;
+	 transform: rotate(-25deg);
+}
+
+#p01 {
+	 text-align: center;
+}
+
+ #input01 {
+	 background-color: black;
+	 color: white;
+	 border: 2px black;
+	 border-radius: 4px;
+	 padding: 12px 70px;
+	 text-align: center;
+	 position: absolute;
+	 right: 42%;
+	 bottom: 50%;
+ }
+ #color {
+	 color: #4eb500;
+ }
+ 
+ #color01 {
+	 color: #f59042;
+ }
+ 
+ #color02 {
+	 color: #57437d;
+ }
+ 
+ #color03 {
+	 color: #7a3402;
+ }
+ 
+ #color04 {
+	 color: #0084a8;
+ }
+ 
+ #drink01 {
+	 position: absolute;
+	 right: 41%;
+	 bottom: 20%;
+	 height: 200px;
+	 width: 350px;
+ }

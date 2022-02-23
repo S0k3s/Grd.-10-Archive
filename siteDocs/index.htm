@@ -1,0 +1,39 @@
+<html>
+
+	 <head>
+		 <title>index</title>
+		 <link rel="stylesheet" href="index.css">
+		 <link rel="shortcut icon" href="graphics\favicon.png"/>
+	 </head>
+	
+	 <body>
+		 
+		 <h1 id="h101" style="text-align:center;">Welcome</h1>
+		 <h2 id="h201" style="text-align:center;">Your objective is to figure out a way to make it to the next page.</h2>
+		 <h2 id="h202" style="text-align:center;">Press the enter button to begin.</h2>
+	
+		 <a href="Doc1.htm">
+			<img id="Enterimg01" src="graphics\Enter.png" style="float:center;" onmouseover="Enterimg()">
+		 </a>
+	
+		 <script>
+			 var position2;
+			
+			 function Enterimg()
+			 {
+				 var position1 = Math.floor(Math.random() * 750);
+				
+				while(Math.abs(position1 - position2) < 300)
+				 {
+					 var position1 = Math.floor(Math.random() * 750);
+				 }
+				 document.getElementById("Enterimg01").style.marginLeft = position1;
+				 document.getElementById("Enterimg01").style.marginTop = position1;	
+				
+				 position1 = position2;
+			 }
+		 </script>
+		
+	 </body>
+
+</html>

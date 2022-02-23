@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<title>elcFootball</title>
+		<link rel="stylesheet" href="elcFootball_style.css">
+	</head>
+
+	<body onLoad="onLoad()">
+		
+		<button id="runPlay" onClick="runPlay()">Run Play</button>
+		
+        <p id="playerScore"></p>
+        <p id="opponentScore"></p>
+		
+		<svg id="svg01" height="100vh" width="100%">
+			
+            <line id="endZone_L" x1="10%" y1="25%" x2="10%" y2="95%" style="stroke:#32CD32; stroke-width:0.2%"/>
+            <line id="endZone_R" x1="90%" y1="25%" x2="90%" y2="95%" style="stroke:#32CD32; stroke-width:0.2%"/>
+            <line id="lineOfScrimage" x1="50%" y1="25%" x2="50%" y2="95%" style="stroke:black; stroke-width:0.1%"/>
+            <line id="topSideLine" x1="0%" y1="25%" x2="100%" y2="25%" style="stroke:black; stroke-width:0.1%"/> 
+            <line id="bottomSideline" x1="0%" y1="95%" x2="100%" y2="95%" style="stroke:black; stroke-width:0.1%"/>
+            <line id="1stDown" x1="60%" y1="25%" x2="60%" y2="95%" style="stroke:#d4af37; stroke-width:0.2%"/>
+            
+            <circle class="player" id="C" style="cx:50%;cy:60%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="G_L" style="cx:50%;cy:58%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="G_R" style="cx:50%;cy:62%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="T_L" style="cx:50%;cy:56%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="T_R" style="cx:50%;cy:64%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="QB" style="cx:45%;cy:60%" r=".4%" stroke="#d4af37" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="WB" style="cx:44%;cy:56%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="FB" style="cx:44%;cy:64%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="SB_L" style="cx:47.5%;cy:45%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="SB_R" style="cx:47.5%;cy:75%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="WR_L" style="cx:49%;cy:30%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="player" id="WR_R" style="cx:49%;cy:90%" r=".4%" stroke="#1e90ff" stroke-width=".2%" fill="#ffffff00"/>
+
+            <circle class="enemy" id="N" style="cx:52%;cy:60%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="T_L" style="cx:52%;cy:57%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="T_R" style="cx:52%;cy:63%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="E_L" style="cx:52%;cy:52%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="E_R" style="cx:52%;cy:68%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="S" style="cx:70%;cy:60%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="L_L" style="cx:56%;cy:54%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="L_R" style="cx:56%;cy:66%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="L_LL" style="cx:55%;cy:40%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="L_RR" style="cx:55%;cy:80%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+			<circle class="enemy" id="C_L" style="cx:60%;cy:30%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/> 
+			<circle class="enemy" id="C_R" style="cx:60%;cy:90%" r=".4%" stroke="tomato" stroke-width=".2%" fill="#ffffff00"/>
+		</svg>
+		
+		<script src="elcFootball_utillity.js"></script>
+		
+	</body>
+	
+</html>

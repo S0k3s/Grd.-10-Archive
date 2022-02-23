@@ -1,0 +1,33 @@
+<html>
+
+	 <head>
+		 <link rel="stylesheet" href="style1.css">
+		 <link rel="shortcut icon" href="graphics\favicon.png"/>
+	 </head>
+	
+	 <body>
+	
+		 <h1 id="h102">Enter the correct code into the box, than press any key to continue.</h1>
+		 <h2 id="h203">II IVVI II</h2>
+		 <h2 id="h204">6</h2>
+		 <h3 id="h301">3 separate #'s of<br>6 digits 4 digits and 3 digits</h3>
+		 <input id="input01" type="text" onkeypress="check()" />
+		  
+		 <script>
+			
+			 function check() {
+				 if (document.getElementById ("input01").value == "215512") {
+					 document.getElementById ("equation01").style.visibility = "visible";
+					 document.getElementById ("h301").style.visibility = "visible";
+				 } else if (document.getElementById ("input01").value == "214206 6934 938") {
+					 location.href="Doc2.htm";
+				 }
+			 }
+		
+		 </script>
+	
+		 <img src="graphics\equation.png" id="equation01">
+		
+	 </body>
+
+</html>

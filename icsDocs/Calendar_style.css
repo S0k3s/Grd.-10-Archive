@@ -1,0 +1,44 @@
+body {
+    background-color: orange;
+}
+
+#display {
+    color: dimgrey;
+    font-size: 70px;
+}
+
+.date {
+    text-align: center;
+    border: 4px solid dimgrey;
+    padding: 50px;
+    font-size: 45px;
+    color: dimgrey;
+}
+
+.day {
+    text-align: center;
+    border: 4px solid dimgrey;
+    padding: 10px;
+    font-size: 45px;
+    color: dimgrey;
+}
+
+#table01 {
+    width: 100%;
+}
+
+#table02 {
+    width: 100%;
+}
+
+#table03 {
+    width: 100%;
+}
+
+.month {
+    text-align: center;
+    border: 4px solid dimgrey;
+    padding: 10px;
+    font-size: 35px;
+    color: dimgrey;
+}

@@ -1,0 +1,59 @@
+<html>
+
+	 <head>
+		 <link rel="stylesheet" href="Graphic_Table.css">
+		 <link rel="shortcut icon" href="graphics\favicon.png"/>
+	 </head>
+
+	 <body>
+		 <style>	
+			 .table{
+				 margin: auto;
+			 }
+		 </style>
+	 
+		 <table class="table">
+			
+			 <tr>
+				 <td><a id="top" href="graphics/paint1.png"> <img src="graphics/paint1.png"></a></td>
+				 <td><a href="graphics/paint2.png"> <img src="graphics/paint2.png"></a></td>
+				 <td><a href="graphics/paint3.png"> <img src="graphics/paint3.png"></a></td>
+			 </tr>
+			 
+			 <tr>
+				 <td><a href="graphics/paint4.png"> <img src="graphics/paint4.png"></a></td>
+				 <td><a href="graphics/paint5.png"> <img src="graphics/paint5.png"></a></td>
+				 <td><a href="graphics/paint6.png"> <img src="graphics/paint6.png"></a></td>
+			 </tr>
+			 
+			 <tr>
+				 <td><a href="graphics/paint7.png"> <img src="graphics/paint7.png"></a></td>
+				 <td><a href="graphics/paint8.png"> <img src="graphics/paint8.png"></a></td>
+				 <td><a href="graphics/paint9.png"> <img src="graphics/paint9.png"></a></td>
+			 </tr>
+			 
+		 </table>
+		 
+		 <h1 id="h101">Guess the painter to get back</h1>
+		 
+		 <input id="input01" type="text" onkeypress="check()" />
+		 
+		 <script>
+		 
+			 function check() {
+				 if (document.getElementById ("input01").value == "Bob Ross") {
+					 location.href="Doc4.htm";
+					 document.getElementById ("input01").value = " ";
+				 } 
+			 }
+			 
+		 </script>
+		 
+		 <a style="margin-bottom:100px" id="a01" href="#top">Back to the top!</a>
+		 
+		 <br><br><br><br><br><br><br><br><br><br><br><br>
+		 <p> </p>
+		 
+	 </body>
+
+</html>

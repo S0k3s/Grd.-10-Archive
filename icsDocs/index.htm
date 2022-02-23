@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index_style.css">
+    </head>
+    
+    <body>
+
+        <button class="tabs" onclick="openPage('Home', this, 'tomato')" id="defaultOpen">Home</button>
+        <button class="tabs" onclick="openPage('Quiz', this, '#80dfff')">Quiz</button>
+        <button class="tabs" onclick="openPage('Calendar', this, 'orange')">Calendar</button>
+        <button class="tabs" onclick="openPage('Password', this, '#7ccf92')">Password</button>
+
+        <div id="Home" class="stuff">
+            <h1 class="h101">Home</h1>
+            <p class="p01">Welcome to the home page of this little project.<br>You can explore between a quiz, a callander, and a password recognition system!</p>
+        </div>
+
+        <div id="Quiz" class="stuff">
+            <h1 class="h101">Quiz</h1>
+            <p class="p01">This is a quiz about random questions and stupid answers.<br>Are yeh Feelin' silleh?</p>
+            <a id="button01" href="Quiz.htm">Start Quiz</a>
+        </div>
+
+        <div id="Calendar" class="stuff">
+            <h1 class="h101">Calendar</h1>
+            <p class="p01">This calendar will show you the time, date, and the days in the month!<br>Perfect for all your planing needs.</p>
+            <a id="button02" href="Calendar.htm">Go to Calendar</a>
+        </div>
+
+        <div id="Password" class="stuff">
+            <h1 class="h101">Password</h1>
+            <p class="p01">This program will show you a random code (very useful!).<br>Than, you can take that code and put in into a box.<br>And the program will tell you if it is correct or not!</p>
+            <a id="button03" href="Password.html">Find a password</a>
+        </div>
+        <script src="index_utility.js"></script>
+   
+    </body>
+    
+</html> 

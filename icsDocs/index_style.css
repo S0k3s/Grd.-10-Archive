@@ -1,0 +1,92 @@
+* {box-sizing: border-box}
+
+body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial;
+            }
+
+.h101 {
+    font-size: 60px;
+}
+
+.p01 {
+    font-size: 30px;
+}
+
+.tabs {
+            background-color: #555;
+            color: white;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            font-size: 17px;
+            width: 25%;
+            }
+
+ .tabs:hover {
+            background-color: #777;
+            }
+
+ .stuff {
+            color: #555;
+            display: none;
+            padding: 100px 20px;
+            height: 100%;
+}
+     
+#Home {background-color: tomato;}
+#Quiz {background-color: #80dfff;}
+#Calendar {background-color: orange;}
+#Password {background-color: #7ccf92;}
+
+#button01 {
+    background-color: #80dfff;
+    color: #555;
+    border: 2px solid #555;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 20px;
+	text-decoration: none;
+	
+}
+
+#button01:hover {
+    background-color: #555;
+    color: white;
+    transition-duration: .5s;
+}
+
+#button02 {
+    background-color: orange;
+    color: #555;
+    border: 2px solid #555;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 20px;
+	text-decoration: none;
+}
+
+#button02:hover {
+    background-color: #555;
+    color: white;
+    transition-duration: .5s;
+}
+
+#button03 {
+    background-color: #7ccf92;
+    color: #555;
+    border: 2px solid #555;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 20px;
+	text-decoration: none;
+}
+
+#button03:hover {
+    background-color: #555;
+    color: white;
+    transition-duration: .5s;
+}

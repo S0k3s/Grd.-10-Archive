@@ -1,0 +1,26 @@
+body {
+	 background-color: #7ccf92;
+}
+
+#input01 {
+	 background-color: black;
+	 color: white;
+	 border: 2px black;
+	 border-radius: 4px;
+	 padding: 12px 70px;
+	 text-align: center;
+	 position: absolute;
+	 right: 41%;
+	 bottom: -40%;
+}
+
+#h101 {
+	 text-align: center;
+}
+
+#a01 {
+	 position: absolute;
+	 right: 47%;
+	 bottom: -40%;
+	 color: black;
+}

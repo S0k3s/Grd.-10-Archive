@@ -1,0 +1,56 @@
+html {
+	background-color: #80dfff;
+}
+
+div {
+	background-color: dimgrey;
+ 	width: 800px;
+ 	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.li01 {
+	text-align: left;
+}
+
+.ol01 {
+	color: white;
+}
+
+#grade {
+	color: white;
+	font-size: 40px;
+	text-align: center;
+}
+
+.button {
+ 	background-color: dimgrey;
+  	border: 2px solid #80dfff;
+ 	color: white;
+  	padding: 13px 30px;
+  	text-align: center;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #80dfff;
+	transition-duration: 0.4s;
+}
+
+#h101 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
+#p01 {
+	font-size: 4px;
+}

@@ -1,0 +1,77 @@
+<html>
+
+	 <head>
+		 <link rel="stylesheet" href="style2.css">
+		 <link rel="shortcut icon" href="graphics\favicon.png"/>
+	 </head>
+	 
+	 <body>
+		 <br><br>
+		 <h1 id="text01">You have Been Framed For Murder.</h1>
+		 <h2 id="text01">Unless you can prove your innocence you will be apprehended by the law and unable to continue.</h2>
+		 <p id="p01">I have a list of preferred weapons their names and their preferred location.<br>
+		 Your job is to create a code from your selections and put it in the box below.<br>
+		 For example the murderer used the pipe, her name was Deborah, and she did it in the kitchen, that would be 132.</p>
+		 
+		 <ul id="ul02">
+			 <li>Innocent 1</li>
+			 <li>Murderer</li>
+			 <li>Victim</li>
+			 <li>Innocent 2</li>
+		 </ul>
+		 
+		 <ol id="ol01">
+			 <li>Pipe</li>
+			 <li>Gun</li>
+			 <li>Knife</li>
+			 <li>Wrench</li> 
+		 </ol>
+		 
+		 <ol id="ol02">
+			 <li>Kyle</li>
+			 <li>Slim Shady</li>
+			 <li>Deborah</li>
+			 <li>Kernel</li> 
+		 </ol>
+		 
+		 <ol id="ol03">
+			 <li>Living Room</li>
+			 <li>Kitchen</li>
+			 <li>Bathroom</li>
+			 <li>Bedroom</li> 
+		 </ol>
+		 
+		 <br><br><br><br><br><hr><br>
+		 
+		 <p id="p02">The person who would commit the crime in the bedroom would use the knife.<br>
+		 The Kernel would use the pipe.<br>
+		 The victim is not Deborah<br>
+		 Deborah is the second innocent person.<br>
+		 The murderer did it in the living room.<br>
+		 The first innocent person would use the knife<br>
+		 The person that would use the gun would do it in the bathroom.<br>
+		 Slim Shady would murder in the bedroom</p>
+		 
+		 <input id="input01" type="text" onkeypress="check()" />
+		 
+		 <script>
+		 
+			 function check() {
+				 if (document.getElementById ("input01").value == "411") {
+					 location.href="Doc3.htm";
+					 document.getElementById ("input01").value = " ";
+				 } 
+			 }
+			 
+		 </script>
+		 
+		 <br><br><br><br><br><br><br><br><br><br><br>
+		 
+		 <a target="_blank" id="a02" href="https://logic.puzzlebaron.com">Hint: if you put the preferences and names in a grid it could be easier.</a>
+		 
+		 <img src="graphics\knife.png" id="knife01">
+	
+		 
+	 </body>
+	
+<html>

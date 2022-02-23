@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <link rel="stylesheet" href="Quiz_style.css">
+    </head>
+    <body>
+        
+		<script src="Quiz_utility.js"></script>
+		<div>
+			<h1 id="h101">Random questions and stupid answers quiz</h1>
+			<br>
+			<ul class="ol01">
+				<li class="li01" id="li01">What was the first question I asked you today?</li>
+				<input name="question1" class="input" type="radio">What was the first question I asked you today?<br>
+				<input name="question1" class="input" id="correct01" type="radio"><lable id="lable01">Are yeh feeln’ silleh?</lable><br>
+				<input name="question1" class="input" type="radio">How are you doing?<br>
+				<input name="question1" class="input" type="radio">Who?<br><br>
+				<button class="button" id="button01" onClick="button01()">Submit</button>
+			</ul>
+			<ul class="ol01">
+				<li class="li01" id="li02">Where’s Waldo?</li>
+				<input name="question2" class="input" type="radio">On the beach<br>
+				<input name="question2" class="input" type="radio">On vacation<br>
+				<input name="question2" class="input" id="correct02" type="radio"><lable id="lable02">Give the man some privacy for once!</lable><br>
+				<input name="question2" class="input" type="radio">Nobody knows<br><br>
+				<button class="button" id="button02" onClick="button02()">Submit</button>
+			</ul>
+			<ul class="ol01">
+				<li class="li01" id="li03">If corn oil is made from corn and vegetable oil is made from vegetables. What is baby oil made from?</li>
+				<input name="question3" class="input" id="correct03" type="radio"><lable id="lable03">Babies, obviously</lable><br>
+				<input name="question3" class="input" type="radio">Oh God!<br>
+				<input name="question3" class="input" type="radio">Minerals and Fragrance, Boooooo :(<br>
+				<input name="question3" class="input" type="radio">Double oh god!<br><br>
+				<button class="button" id="button03" onClick="button03()">Submit</button>
+			</ul>
+			<ul class="ol01">
+				<li class="li01" id="li04">Who’s Joe?</li>
+				<input name="question4" class="input" type="radio">Wut<br>
+				<input name="question4" class="input" type="radio">JOE MAMMA! HAH!<br>
+				<input name="question4" class="input" type="radio">That guy from the bank<br>
+				<input name="question4" class="input" id="correct04" type="radio"><lable id="lable04">Shut your mouth</lable><br><br>
+				<button class="button" id="button04" onClick="button04()">Submit</button>
+			</ul>
+			<ul class="ol01">
+				<li class="li01" id="li05">Whats up?</li>
+				<input name="question5" class="input" type="radio">Whole lotta nothin’<br>
+				<input name="question5" class="input" type="radio"><p id="p01">lahlsjkdahsldakjfhljkhsfdaljkhsfdajhklsfdajhklsfdjhklsfdajhklsfdaj<br>hklsfdajhklsfdjhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhk<br>lsfdajhklSFDJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDJHKLSFDAJHKLSFDAJH<br>KLSFDAJHKLSFDAJHKLSFDAJHKLFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLLSFDAJHKSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDA<br>JHKLSFDJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLSFDAJHKLLSFDAJHKLLSFDAJHKLSFDAJHKLLSFDAJHKLLSFDAJHKLSFDAJHKLLSFDAJHKLSFDAJHKLjhklsfdajhlsfdajhklsfdajhkls<br>fdajhklsfdajhklsfdajhklfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhklsfdajhkljhklsfdajhklsfdajhklsfdajhkljhklsfdajhkfdjhkhllhsfdahjkljhksfdahhfdsahlkjhlkasjfhlsjkdahflkjhflskdhflkjhflkjhflkjashdflkjhsfdlkjhasdlkjhsdaflkjhsadflkjhsadflkjhsfdalkjhsfdlkjsfhdalkjhsfdalkjsfhdlkjhkjsghdaf</p><br>
+				<input name="question5" class="input" type="radio">Not much you?<br>
+				<input name="question5" class="input" id="correct05" type="radio"><lable id="lable05">The sky</lable><br><br>
+				<button class="button" id="button05" onClick="button05()">Submit</button>
+			</ul>
+			<ul class="ol01">
+				<li class="li01" id="li06">Is your fridge running?</li>
+				<input name="question6" class="input" type="radio">Yes actually, quite well<br>
+				<input name="question6" class="input" id="correct06" type="radio"><lable id="lable06">Better start chasing after it</lable><br>
+				<input name="question6" class="input" type="radio">Noope<br>
+				<input name="question6" class="input" type="radio">I don’t get it<br><br>
+				<button class="button" id="button06" onClick="button06()">Submit</button>
+			</ul>
+			<ul class="ol01">
+				<li class="li01" id="li07">Why is there a light in the fridge but not the freezer?</li>
+				<input name="question7" class="input" id="correct07" type="radio"><lable id="lable07">Hmmmmm</lable><br>
+				<input name="question7" class="input" type="radio">I have a light in my freezer<br>
+				<input name="question7" class="input" type="radio">I don't have a light in either<br>
+				<input name="question7" class="input" type="radio">I don't have either<br><br>
+				<button class="button" id="button07" onClick="button07()">Submit</button>
+			</ul>
+			<br><br>
+			<button class="button" onClick="buttonCheck()">Check</button>
+			<p id="grade"></p>
+		</div>
+  
+    </body>	
+</html>
